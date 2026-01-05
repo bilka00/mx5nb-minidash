@@ -1,9 +1,14 @@
 # mx5nb-minidash
-  Mini gauge display for Mazda MX-5 NB — oil pressure, temps, ECU data (Invent Labs, ME442). Replaces stock oil pressure gauge (or other 42mm gauge), 1.43" AMOLED + RP2350
+  Mini gauge display for Mazda MX-5 NB — oil pressure, temps, ECU data (Invent Labs, ME442). Replaces stock oil pressure gauge (or other 42mm gauge)
+  Waveshare RP2350 + 1.43" AMOLED - https://www.waveshare.com/product/rp2350-touch-amoled-1.43.htm
 # Project struct
 ## 3D Model
   3D models designed for 3D printing to mount the display to replace the factory gauge
+## Demo
+  Firmware source code and scematic for Demo application
 ## Invent Labs EMS
   Firmware source code and scematic for EMS BUS intergate
 ## ME442
   Firmware source code and scematic for ME442 CAN intergate
+## Images
+  Image for readme
