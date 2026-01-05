@@ -8,9 +8,9 @@
   3D models designed for 3D printing to mount the display to replace the factory gauge
 ## Demo
   Firmware source code and scematic for Demo application
-## Invent Labs EMS
-  Firmware source code and scematic for EMS BUS intergate
-## ME442
-  Firmware source code and scematic for ME442 CAN intergate
+## Invent Labs EMS (While this integration is not implemented)
+  Firmware source code and scematic for EMS BUS intergate 
+## ME442 (While this integration is not implemented)
+  Firmware source code and scematic for ME442 CAN intergate 
 ## Images
   Image for readme
