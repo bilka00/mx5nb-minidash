@@ -1,0 +1,109 @@
+VERSION ""
+
+
+NS_ : 
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+	BO_TX_BU_
+	BA_DEF_REL_
+	BA_REL_
+	BA_DEF_DEF_REL_
+	BU_SG_REL_
+	BU_EV_REL_
+	BU_BO_REL_
+	SG_MUL_VAL_
+
+BS_:
+
+BU_:
+
+
+BO_ 775 ME1_8: 8 Vector__XXX
+ SG_ EGT_1 : 0|16@1+ (0.1,0) [0|0] "deg C" Vector__XXX
+ SG_ EGT_2 : 16|16@1+ (0.1,0) [0|0] "deg C" Vector__XXX
+ SG_ GPT_2 : 48|16@1- (1,0) [0|0] "" Vector__XXX
+ SG_ GPT_1 : 32|16@1- (1,0) [0|0] "" Vector__XXX
+
+BO_ 774 ME1_7: 8 Vector__XXX
+ SG_ Knock_Evs_Cnt : 40|16@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ Fuel_Temp : 32|8@1+ (1,0) [0|0] "deg C" Vector__XXX
+ SG_ Fuel_Press : 24|8@1+ (5,0) [0|0] "kPa" Vector__XXX
+ SG_ Knock_Ign_Adv_Mod : 16|8@1- (0.1,0) [0|0] "deg" Vector__XXX
+ SG_ Knock_Peak_Reading : 0|16@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 832 ME1_In_1: 8 Vector__XXX
+ SG_ Vehicle_Speed : 0|16@1+ (0.008,0) [0|524.28] "kph" Vector__XXX
+
+BO_ 773 ME1_6: 8 Vector__XXX
+ SG_ EPS_Ev_Msk : 40|16@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Vehicle_Speed : 24|16@1+ (0.008,0) [0|524.28] "kph" Vector__XXX
+ SG_ MAP_Target : 8|16@1+ (0.01,0) [0|655.35] "kPa" Vector__XXX
+ SG_ Gear_Pos : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 771 ME1_4: 8 Vector__XXX
+ SG_ Boost_Ctrl_Duty : 48|8@1+ (0.5,0) [0|127.5] "%" Vector__XXX
+ SG_ Sec_InjPw : 32|16@1- (0.1,0) [0|0] "ms" Vector__XXX
+ SG_ Sec_InjDuty : 8|8@1+ (0.5,0) [0|127.5] "%" Vector__XXX
+ SG_ Sec_InjAngle : 16|16@1- (0.1,0) [0|0] "deg" Vector__XXX
+ SG_ Pri_InjDuty : 0|8@1+ (0.5,0) [0|127.5] "%" Vector__XXX
+
+BO_ 772 ME1_5: 8 Vector__XXX
+ SG_ VBAT : 48|16@1- (0.1,0) [0|0] "V" Vector__XXX
+ SG_ CLT : 32|16@1- (0.1,0) [0|0] "deg C" Vector__XXX
+ SG_ Oil_P : 16|16@1- (0.1,0) [0|0] "kPa" Vector__XXX
+ SG_ Oil_T : 0|16@1- (0.1,0) [-3276.8|3276.7] "deg C" Vector__XXX
+
+BO_ 770 ME1_3: 8 Vector__XXX
+ SG_ Pri_InjPw : 48|16@1- (0.1,0) [0|0] "ms" Vector__XXX
+ SG_ Pri_InjAngle : 32|16@1- (0.1,0) [0|0] "deg" Vector__XXX
+ SG_ IgnDwell : 16|16@1- (0.1,0) [0|0] "ms" Vector__XXX
+ SG_ IgnAdvAngle : 0|16@1- (0.1,0) [0|0] "deg" Vector__XXX
+
+BO_ 769 ME1_2: 8 Vector__XXX
+ SG_ Fuel_Eth_Perc : 56|8@1+ (0.5,0) [0|127.5] "%" Vector__XXX
+ SG_ RPM_HardLimit : 0|16@1+ (0.4,0) [0|26214] "" Vector__XXX
+ SG_ AFR_Target : 48|8@1+ (0.05,7.5) [7.5|20.25] "" Vector__XXX
+ SG_ AFRCurr_2 : 24|8@1+ (0.05,7.5) [7.5|20.25] "" Vector__XXX
+ SG_ Lambda_Trim : 32|16@1+ (0.01,0) [0|0] "" Vector__XXX
+ SG_ AFRCurr_1 : 16|8@1+ (0.05,7.5) [7.5|20.25] "" Vector__XXX
+
+BO_ 768 ME1_1: 8 Vector__XXX
+ SG_ IAT : 48|16@1- (0.1,0) [-3276.8|3276.7] "deg C" Vector__XXX
+ SG_ MAP : 32|16@1+ (0.01,0) [0|0] "kPa" Vector__XXX
+ SG_ TPS : 16|16@1- (0.1,0) [0|0] "%" Vector__XXX
+ SG_ RPM : 0|16@1+ (1,0) [0|0] "" Vector__XXX
+
+
+
+EV_ Min_FW_Version: 0 [0|0] "3.7.3" 0 1 DUMMY_NODE_VECTOR8000 Vector__XXX;
+
+CM_ SG_ 773 EPS_Ev_Msk "Bitmask. A bit set to 1 means that the corresponding protection module was triggered.  The digit represents the position of the bit.
+0  - Oil Temperature
+1 - Oil Pressure
+2 - Fuel Pressure
+3 - Lambda
+4 - EGT
+5 - Knock
+6 - Overboost
+";
+BA_DEF_  "BusType" STRING ;
+BA_DEF_DEF_  "BusType" "";
+
