@@ -4,7 +4,7 @@
   Preview:
   ![First demo preview](./Images/prev_1.jpg)
 ## PCB
-  Gerbers for pcb (Not tested yet, I'm waiting for payment from the factory)
+  Gerbers for pcb (Not tested yet, I'm waiting for production from the factory.)
   ![PCB_1](./Images/pcb_1.jpg)
   ![PCB_2](./Images/pcb_2.jpg)
 ## 3D Model
