@@ -3,6 +3,10 @@
   Waveshare RP2350 + 1.43" AMOLED - https://www.waveshare.com/product/rp2350-touch-amoled-1.43.htm
   Preview:
   ![First demo preview](./Images/prev_1.jpg)
+## PCB
+  Gerbers for pcb (Not tested yet, I'm waiting for payment from the factory)
+  ![PCB_1](./Images/pcb_1.jpg)
+  ![PCB_2](./Images/pcb_2.jpg)
 ## 3D Model
   3D models designed for 3D printing to mount the display to replace the factory gauge
 ## Demo
