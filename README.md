@@ -4,9 +4,13 @@
   Preview:
   ![First demo preview](./Images/prev_1.jpg)
 ## PCB
-  Gerbers for pcb (Not tested yet, I'm waiting for payment from the factory)
+  Gerbers for pcb
   ![PCB_1](./Images/pcb_1.jpg)
   ![PCB_2](./Images/pcb_2.jpg)
+
+  I received the boards from the factory and have already conducted the first tests. 
+RS232 - works stably. The DC-DC ratings in the circuit are selected from those I have, you can choose better (resistors R7 R8).
+
 ## 3D Model
   3D models designed for 3D printing to mount the display to replace the factory gauge
 ## Demo
