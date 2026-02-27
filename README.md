@@ -8,6 +8,7 @@
   I received the boards from the factory and have already conducted the first tests. 
 RS232 - works stably. The DC-DC ratings in the circuit are selected from those I have, you can choose better (resistors R7 R8).
   CAN bus works too!
+  I haven't tested the ADC yet, I'm waiting for the components.
   ![PCB_1](./Images/pcb_1.jpg)
   ![PCB_2](./Images/pcb_2.jpg)
 ## Source 
