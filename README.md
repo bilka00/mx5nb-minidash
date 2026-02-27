@@ -7,9 +7,11 @@
   Gerbers for pcb
   I received the boards from the factory and have already conducted the first tests. 
 RS232 - works stably. The DC-DC ratings in the circuit are selected from those I have, you can choose better (resistors R7 R8).
-  CAN is in the process of testing. I will publish the source code after the prototypes are ready.
+  CAN bus works too!
   ![PCB_1](./Images/pcb_1.jpg)
   ![PCB_2](./Images/pcb_2.jpg)
+## Source 
+  There are two projects there. One is an emulator, it can emulate both Invent and CAN ME442 (but that's not accurate, Claude). The second is the dashboard firmware itself, see config.h
 ## 3D Model
   3D models designed for 3D printing to mount the display to replace the factory gauge
 ## Demo
