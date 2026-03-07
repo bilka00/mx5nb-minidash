@@ -19,8 +19,9 @@ RS232 - works stably. The DC-DC ratings in the circuit are selected from those I
   Firmware source code for Demo application
 ## Invent Labs EMS (While this integration is not implemented)
   Firmware source code and scematic for EMS BUS intergate 
+  Invent Labs EMS Bus is Inverted 12V UART (NOT RS232!!!, hotfix: 2k resistor - RS232 RX and VIN), speed 19200bps
+  New board in progress. Let's abandon max2323 and make an inverter + logic level convertor on n-mos
   
-  Invent Labs EMS Bus is RS232, speed 19200bps
 ## ME442 (While this integration is not implemented)
   Firmware source code and scematic for ME442 CAN intergate 
   
